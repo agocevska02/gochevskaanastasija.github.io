@@ -1,0 +1,292 @@
+body{
+    width: 1520px;
+}
+.header {
+    background-color: #D0EAEB;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+   /* padding-left:50px ;*/
+    padding-right: 20px;
+
+}
+#uni > div > ul.menu>li{
+    display: inline-flex;
+}
+#uni > div > ul.social > li{
+    display: inline-flex;
+}
+.logo>img{
+    margin-top: -60px;
+    margin-left: 20%;
+}
+body > div>.proba > ul.menu > li > a{
+    color: white;
+    font-family: "Times New Roman" ,sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+body > div >.proba> ul.menu > li>a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #D0EAEB;
+
+}
+.social{
+    margin-top: 0.5%;
+    margin-left: 32%;
+}
+.menu{
+    margin-top: 2%;
+   margin-left: 1%;
+
+}
+#uni > div{
+    display: flex;
+
+    height: 80px;
+    background-color: #D0EAEB;
+    /*margin-left: -5px;*/
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+
+}
+body > div >.proba> ul.menu > li{
+    margin-right: 10px;
+}
+body > div >.proba> ul.social > li
+{
+    margin-right: 10px;
+}
+.telo{
+    display: flex;
+}
+.telo .photo{
+    margin-top: -9%;
+    margin-left: 8%;
+}
+.telo .text{
+    background-image: url("shape.png");
+   width: 820px;
+    height: 897px;
+    margin-top: -24%;
+
+}
+.telo .text>h1{
+    margin-top: 25%;
+    font-family: cursive;
+    margin-left: 25%;
+    color: white;
+    font-size: x-large;
+    border-bottom: lightgreen 4px solid;
+}
+.telo .text>p{
+    margin-top: 15%;
+    font-size: large;
+    color: white;
+    margin-left: 40%;
+    width: 30%;
+    font-family: "Times New Roman",sans-serif;
+}
+.obravozanie1{
+    background-color: #D0EAEB;
+    display: flex;
+    flex-direction: column;
+}
+.obrazovanie{
+    display: flex;
+    margin-left: 6%;
+}
+.osnovno,.sredno,.faks{
+    width: 400px;
+    height: 700px;
+    margin-right: 3%;
+    margin-top: 2%;
+    border:2px solid lightgreen;
+    border-radius: 2%;
+    margin-bottom: 50px;
+
+}
+.osnovno h1 ,.sredno h1,.faks h1{
+    text-align: center;
+    color: white;
+
+}
+#education > div > div > h1
+{
+    font-size: 20px;
+}
+.obravozanie1> h1{
+    margin-left: 45%;
+    font-family: "Times New Roman",sans-serif;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 5px solid lightgreen;
+    font-size: 20px;
+}
+#education > div > div.osnovno > a {
+    margin-left: 38%;
+}
+#education > div > div.sredno > a {
+    margin-left: 27%;
+}
+#education > div > div.faks > a{
+    margin-left: 30%;
+}
+.osnovno h2,.sredno h2,.faks h2{
+    text-align: center;
+    color: black;
+}
+.osnovno p,.sredno p,.faks p{
+    color: black;
+    font-size: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.hobi{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.glumenje{
+    display: flex;
+}
+.glumenje .photos{
+    display: flex;
+}
+.crvenkrst{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.crvenkrst .slikii{
+    display: flex;
+}
+
+.glumenje{
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.crvenkrst>.tekst>p
+{
+    background-image: url("green.jpg");
+    margin-top: 30%;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+
+.glumenje>.text>p{
+    background-image: url("yellow.png");
+    margin-top: 15%;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 40%;
+    border-radius: 10px;
+
+}
+body > div.hobi > div > div.photos > img:nth-child(1){
+    margin-top: 10%;
+    margin-right: 10%;
+    border: 5px solid #F9D474;
+}
+body > div.hobi > div > div.photos > img:nth-child(2){
+    border: 5px solid #F9D474;
+}
+body > div.hobi > div > div.slikii > img:nth-child(1){
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 5px solid #6BC5B9;
+}
+body > div.hobi > div > div.slikii > img:nth-child(2){
+    border: 5px solid #6BC5B9;
+    margin-top: 15%;
+}
+.funfacts{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9D474;
+    margin-top: 3%;
+
+}
+.fakti{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.jazik,.cat,.dog,.disney,.znak,.russia,.cooking
+{
+    display: flex;
+    margin-bottom: 3%;
+
+}
+#fact{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+
+}
+.facts{
+    width: 50%;
+    margin-right: 10%;
+}
+body > div.funfacts > div > div.photoo > img{
+    margin-top: 9%;
+    border: 3px solid yellow;
+}
+body > div.funfacts > div > div.facts > div.jazik > p{
+    margin-top: 5%;
+}
+body > div.funfacts > div > div.facts > div.cat > p{
+    margin-top: 5%;
+}
+body > div.funfacts > div > div.facts > div.dog > p{
+    margin-top: 4%;
+}
+body > div.funfacts > div > div.facts > div.disney > p{
+    margin-top: 5%;
+}
+body > div.funfacts > div > div.facts > div.russia > p{
+    margin-top: 5%;
+}
+body > div.funfacts > div > div.facts > div.cooking > p{
+    margin-top: 5%;
+}
+body > div.funfacts > div > div.facts > div > p
+{
+    color: white;
+    padding-left: 4%;
+}
+body > div.telo > div.photo > img:hover{
+    filter: brightness(1.1);
+}
+#drama > div.photos > img:hover{
+    filter: brightness(1.1);
+}
+#redcross > div.slikii > img:hover{
+    filter: brightness(1.1);
+}
+body > div.funfacts > div > div.photoo > img:hover{
+    filter: brightness(1.1);
+}
+#education > div > div.faks > h2{
+    margin-top: 2px;
+}
+#education > div > div.osnovno > div > iframe{
+    margin-top: 17%;
+}
+#education > div > div.faks > div > iframe{
+    margin-top: 7%;
+}
